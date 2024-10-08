@@ -432,17 +432,7 @@ textarea {
 .content__cv {
     display: flex;
     flex-wrap: wrap;
-}
-
-.about__content-association {
-    margin-right: 10rem;
-    max-width: 40rem;
-}
-
-.about__content-experience,
-.about__content-education {
-    margin: 2rem;
-    margin-bottom: 4rem;
+    gap: 10rem;
 }
 
 .about__content-details {
