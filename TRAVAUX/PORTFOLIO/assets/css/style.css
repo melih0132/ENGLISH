@@ -361,35 +361,19 @@ textarea {
 
 .about__content-main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-}
-
-.about__content-img {
-    width: 100%;
-    max-width: 35rem;
-    margin: 2rem 10rem 10rem 15rem;
-    border-radius: 15px;
-    box-shadow: rgba(100, 100, 100, 0.2) 0px 7px 29px 0px;
 }
 
 @media only screen and (max-width: 56.25em) {
     .about__content-main {
         text-align: center;
     }
-
-    .about__content-main2 {
-        visibility: hidden;
-    }
 }
 
 @media only screen and (max-width: 37.5em) {
     .about__content-main {
         text-align: center;
-    }
-
-    .about__content-main2 {
-        visibility: hidden;
     }
 }
 
