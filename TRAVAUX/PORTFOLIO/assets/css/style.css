@@ -355,7 +355,7 @@ textarea {
 @media only screen and (max-width: 56.25em) {
     .about__content {
         grid-template-columns: 1fr;
-        grid-gap: 3rem
+        grid-gap: 10rem
     }
 }
 
@@ -369,10 +369,18 @@ textarea {
     .about__content-main {
         text-align: center;
     }
+
+    .content__cv {
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 37.5em) {
     .about__content-main {
+        text-align: center;
+    }
+
+    .content__cv {
         text-align: center;
     }
 }
@@ -415,8 +423,9 @@ textarea {
 
 .content__cv {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
 }
 
 .about__content-details {
@@ -428,14 +437,8 @@ textarea {
 .about__content-details-experience_work {
     color: #666;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 2rem;
-}
-
-@media (max-width: 37.5rem) {
-    .about__content-details-experience_work {
-        flex-direction: column;
-    }
 }
 
 .experience-item,
